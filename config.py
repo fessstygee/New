@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "11851604"))
-API_HASH = getenv("API_HASH", "54664a25061099eb3bdf0ae5a28cea62")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
 EVAL = list(map(int, getenv("EVAL", "1452370643 1073815732").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "5692619595:AAGZd0c_HBnN963yvbIk7SMuWxaow99UBbw")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
+OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "ISTKHARkoBot")
 # --------------------------------------------------------
@@ -24,7 +24,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 # ---------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://venommusic:venom112@cluster0.tvf0tqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
@@ -45,7 +45,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # -----------------------------------------
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots0688b3') # youtube song api ke
+API_KEY = getenv("API_KEY",) # youtube song api ke
 # -------------------------------------------------------------------------
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Pubglovers_Shayri_lovers")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+2HpAd1kBDRo1NzY1")
@@ -64,7 +64,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQC011QAFagxt3o60cs0zgFgaf_s37lLrbtrfU0ozChkYnDYk-6pEXUipvP3PpPMg5eMdVQ8n4_-6QitOjzCvZSE7XM-DbSN5S1Yas89-_t7twReJXRRGgnPcCF98Vmuo8ytEv5BMjDcCJSDCoyuF96PrNRcUiCrvEWIz4VClE9IhOFcmtFQm4lUfCsAuRoZg57r3bxFFiefdGaZoYWnwPPtr5FQWiApewbuEfhoDOwJt2FzkAKW2hbIuR0A4KfPBVnxhFTiBp7hEvUVeyKayzNv6xJeM--Knan4isVWZFahNMrIU9Zbnth_-ti-Pn5-bCqG7buK3KVt2OITLcWLO1-ezA7GjgAAAAHbJl3eAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
